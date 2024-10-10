@@ -1,0 +1,28 @@
+.Header{
+    width: 100%;
+    background-color: rgb(25 27 32);
+    height: 90px;
+}
+
+.Items{
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.account{
+    cursor: pointer;
+}
+
+.searchInput{
+    width: 100%;
+    padding: 8px 16px 8px 40px;
+    border-radius: 8px;
+    background-color: #ffff;
+    border: none;
+    color: black;
+    height: 40px;
+    outline: none;
+}
